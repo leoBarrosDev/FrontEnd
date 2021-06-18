@@ -1,0 +1,197 @@
+@import url ('https://fonts.googleapis.com/css2? family = Raleway: wght @ 100; 400; 700 & display = swap'); 
+
+:root{
+    --cor-base-texto: #333333;
+
+    --cor-preto: #272222;
+    --cor-preto-escuro: #151313;
+    
+    --cor-vermelho: #923b3b;
+    --cor-vermelho-escuro: #6b1b1b;
+  
+
+    --cor-laranja: #ba741e;
+    --cor-laranja-escuro: #ac411b;
+
+    --cor-amarelo: #cd853f;
+    --cor-amarelo-escuro: #d2691e;
+  
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+#topo{
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+#topo img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.letter-spacing{
+    letter-spacing: 03px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.flex{
+    display: flex;
+}
+
+.titulo-secao{
+    background-color: #eeeeee;
+    border-top: solid 1px var(--cor-vermelho-escuro);
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+#nome-resumo{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 230px;
+    align-items: center;
+}
+
+.resumo-pessoal{
+    color: var(--cor-vermelho);
+    font-weight: bold;
+    font-size: 1.5rem;
+    font
+}
+
+.funcao-exercida{
+    color: var(--cor-vermelho);
+    font-style: italic;
+     
+}
+
+#foto-perfil{
+    height: 1000px;
+    overflow: hidden;
+    align-items: center;
+ 
+}
+
+#foto-perfil img{
+    width: 100%;
+}
+
+section p{
+    line-height: 2rem;
+}
+
+.arejamento{
+    padding: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.periodo{
+    margin-bottom: 1.5rem;
+    color: #3b3b3b;
+    font-size: 12px;
+}
+
+.linha{
+
+}
+
+.conteiner-img{
+
+}
+
+#img-site{
+
+}
+
+#img-telefone{
+    
+}
+
+#img-email{
+    
+}
+
+#img-endereco{
+    
+}
+
+#conteiner-img-endereco{
+    background-color: var(--cor-preto-escuro);
+}
+#link-endereco{
+    background-color: var(--cor-preto);
+}
+
+#conteiner-img-telefone{
+    background-color: var(--cor-vermelho-escuro);
+}
+#link-telefone{
+    background-color: var(--cor-vermelho);
+}
+
+#conteiner-img-site{
+    background-color: var(--cor-laranja-escuro);
+}
+#link-site{
+    background-color: var(--cor-laranja);
+}
+
+#conteiner-img-email{
+    background-color: var(--cor-amarelo-escuro);
+}
+#link-email{
+    background-color: var(--cor-amarelo);
+}
+    
+.linha a{
+    color: #ffffff;
+    text-decoration: none;
+    flex: 1;
+    height: 3rem;
+    align-self: center;
+    display: flex;
+    line-height: 3rem;
+    padding-left: 3rem;
+}
+  
+.linha{
+    display: flex;
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+}
+
+.conteiner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.conteiner-img img{
+    height: 1.3rem;
+    
+}
+
+.linha:hover{
+    transform: scale(1.025);
+    
+}
